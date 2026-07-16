@@ -1,0 +1,30 @@
+{
+  "Monodepth2": {
+    "method": "Monodepth2",
+    "AbsRel": 0.0193,
+    "RMSE": 1.1312,
+    "d1": 1.0,
+    "epoch": 41
+  },
+  "DepthNet+TNet": {
+    "method": "DepthNet+TNet",
+    "AbsRel": 0.0134,
+    "RMSE": 0.8344,
+    "d1": 0.9995,
+    "epoch": 45
+  },
+  "reconstruction": {
+    "mean_distance": 7.3044,
+    "std_distance": 4.3137,
+    "median": 6.5267,
+    "unit": "mm"
+  },
+  "MobileNet+TNet3frame": {
+    "AbsRel": 0.0372,
+    "RMSE": 1.8504,
+    "d1": 0.9795,
+    "FPS": 243.6,
+    "Params": "0.9M",
+    "epoch": 49
+  }
+}
